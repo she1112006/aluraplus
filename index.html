@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Cafeteria</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>O dia começou e eu estava entrando na cafeteria, pronta para avaliar os tipos de café daquele local</p>
+            <button class="btn-proximo" data-proximo="1">Cappuccino com espuma</button>
+            <button class="btn-proximo" data-proximo="2">Espresso panna</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua experimentação no Cappuccino com espuma</p>
+            <button class="btn-proximo" data-proximo="3">Estava delicioso!</button>
+            <button class="btn-proximo" data-proximo="4">O café estava com o gosto amargo, diferente do normal</button>
+        </div>
+        <div class="passo" id="passo-2"></div>
+            <p>Você escolhe o Espresso panna, apesar do café estar com um bom gosto, ele estava frio</p>
+            <button class="btn-proximo" data-proximo="5">chamar a gerente de incompetente</button>
+            <button class="btn-proximo" data-proximo="6">perguntar ao gerente, o porque estar diferente</button>
+        </div>
+    </main> 
+    <script src="script.js"></script>
+</body>
+</html>
